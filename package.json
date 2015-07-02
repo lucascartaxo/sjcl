@@ -12,5 +12,11 @@
     "scripts": {
       "test": "make test"
     },
-    "engines": { "node": "*" }
+    "engines": {
+        "node": "*"
+    },
+    "ember-addon": {
+        "configPath": "tests/dummy/config"
+      },
+    "main": "index.js"
 }
